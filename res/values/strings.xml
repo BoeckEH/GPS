@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">FirstTabletProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TabletActivity</string>
+    <string name="main_button">This is Eric\'s Button</string>
+    <string name="main_button_hint">Press me to have fun!</string>
+
+</resources>
