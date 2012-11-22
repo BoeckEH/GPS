@@ -12,6 +12,7 @@
         android:layout_marginTop="62dp"
         android:alpha="1"
         android:hint="@string/main_button_hint"
+        android:onClick="onClick_EricsButton"
         android:text="@string/main_button"
         android:textAllCaps="false" />
 
@@ -22,5 +23,62 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="86dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEricsButton"
+        android:layout_marginTop="191dp"
+        android:text="Longitude"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEricsButton"
+        android:layout_alignTop="@+id/textView3"
+        android:text="0.0000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_Longitude"
+        android:layout_below="@+id/tv_Longitude"
+        android:text="0.0000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Latitude"
+        android:layout_alignBottom="@+id/tv_Latitude"
+        android:layout_alignParentLeft="true"
+        android:text="Latitude"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/tv_Latitude"
+        android:text="00000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
