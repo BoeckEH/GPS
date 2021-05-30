@@ -81,4 +81,23 @@
         android:text="00000000"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/analogClock1"
+        android:layout_marginBottom="56dp"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/tv_Latitude" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick_ssGPSThread"
+        android:layout_marginBottom="47dp"
+        android:text="ToggleButton" />
+
 </RelativeLayout>
